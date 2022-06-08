@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FirstSection() {
     return (
-        <div className=' w-full px-24 grid grid-cols-2 gap-6 py-14' >
+        <div className=' w-full px-6 lg:px-24 grid grid-cols-1 lg:grid-cols-2 gap-6 py-14' >
             <div className=' w-full flex flex-col border border-[#DEDEDE] rounded-2xl ' >
                 <div className='w-full flex' >
                     <svg className='mt-10 ml-10' width="120" height="99" viewBox="0 0 136 115" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@ export default function FirstSection() {
                     </div>
                 </div> 
             </div>
-            <div className=' w-full flex flex-col rounded-2xl ' >
+            <div className=' w-full flex flex-col rounded-2xl lg:mt-0 mt-6 ' >
                 <div className='w-full flex' >
                     <svg className='mt-10 ml-10' width="120" height="99" viewBox="0 0 136 115" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M37.0312 0C16.8729 0 0.53125 16.3416 0.53125 36.5C0.53125 56.6584 16.8729 73 37.0312 73H54.4258C74.5842 73 90.9258 56.6584 90.9258 36.5C90.9258 16.3416 74.5842 0 54.4258 0H37.0312ZM103.258 73C91.6598 73 82.2578 82.402 82.2578 94C82.2578 105.598 91.6598 115 103.258 115H114.504C126.102 115 135.504 105.598 135.504 94C135.504 82.402 126.102 73 114.504 73H103.258Z" fill="#06C66C"/>

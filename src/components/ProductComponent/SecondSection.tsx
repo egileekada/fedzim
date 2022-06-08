@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function SecondSection() {
     return (
-        <div className=' w-full px-24 py-14'  >
-            <div className=' w-full flex rounded-xl p-20 text-white bg-[#1B034B] ' >
+        <div className=' w-full lg:px-24 py-14'  >
+            <div className=' w-full flex lg:flex-row flex-col lg:rounded-xl py-20 lg:px-20 px-10 lg:p-20 text-white bg-[#1B034B] ' >
                 <div className='w-auto' >
                     <div className=' w-12 h-14 rounded-lg flex justify-center items-center bg-[#FFFFFF1B]' >
                         <svg width="30" height="43" viewBox="0 0 37 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,16 +11,16 @@ export default function SecondSection() {
                         </svg>
                     </div> 
                     <p className=' font-OpenSans-SemiBold text-xl my-4' >Hospital Managemnet</p>
-                    <p className=' font-OpenSans-Regular w-80 leading-loose text-sm' >Keeping detailed information about a patient, their condition, and their treatment to ensure you have all of the information needed to hand at every checkup or consultation with them.</p>
+                    <p className=' font-OpenSans-Regular lg:w-80 leading-loose text-sm' >Keeping detailed information about a patient, their condition, and their treatment to ensure you have all of the information needed to hand at every checkup or consultation with them.</p>
                 </div>
-                <div className='w-auto lg:mr-16 ml-auto' >
+                <div className='w-auto lg:mr-16 lg:ml-auto lg:mt-0 mt-12' >
                     <div className=' w-12 h-14 rounded-lg flex justify-center items-center bg-[#FFFFFF1B]' >
                         <svg width="30" height="14" viewBox="0 0 34 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.636353 2.2273C0.636353 1.39887 1.30793 0.727295 2.13635 0.727295H2.45453H4.5909H29.4091H31.5454H31.8636C32.6921 0.727295 33.3636 1.39887 33.3636 2.22729V2.54548V6.50002C33.3636 7.32845 32.6921 8.00002 31.8636 8.00002H29.4091C28.5807 8.00002 27.9091 7.32845 27.9091 6.50002V4.36366H23.5592C27.2553 6.59074 29.7273 10.6431 29.7273 15.2727C29.7273 16.2769 28.9132 17.0909 27.9091 17.0909C26.9049 17.0909 26.0909 16.2769 26.0909 15.2727C26.0909 10.252 22.0208 6.18184 17 6.18184C11.9792 6.18184 7.90908 10.252 7.90908 15.2727C7.90908 16.2769 7.09505 17.0909 6.0909 17.0909C5.08674 17.0909 4.27272 16.2769 4.27272 15.2727C4.27272 10.6431 6.74468 6.59074 10.4407 4.36366H6.0909V6.50002C6.0909 7.32845 5.41932 8.00002 4.5909 8.00002H2.13635C1.30793 8.00002 0.636353 7.32845 0.636353 6.50002V2.54548V2.2273Z" fill="white"/>
                         </svg>
                     </div> 
                     <p className=' font-OpenSans-SemiBold text-xl my-4' >Patient Management</p>
-                    <p className=' font-OpenSans-Regular w-80 leading-loose text-sm' >Patient Memo works for both the hospital and the Patients </p>
+                    <p className=' font-OpenSans-Regular lg:w-80 leading-loose text-sm' >Patient Memo works for both the hospital and the Patients </p>
                 </div>
             </div>
         </div>
