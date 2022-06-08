@@ -37,7 +37,7 @@ export default function Navbar() {
 
             {menu 
                 ?
-                <div className=' w-full h-auto pb-6 top-16 right-0 lef4 z-50 bg-white absolute xl:hidden flex flex-col font-Inter-SemiBold items-center mt-0 mb-4'  > 
+                <div className=' w-full h-auto pb-6 top-24 right-0 lef4 z-50 bg-white absolute xl:hidden flex flex-col font-Inter-SemiBold items-center mt-0 mb-4'  > 
                     <a href='/' onClick={()=>setMenu(false)} className=' text-sm font-OpenSans-Medium my-2 ' >Home</a>
                     <a href='/aboutus' onClick={()=>setMenu(false)} className=' text-sm font-OpenSans-Medium my-2 ' >About us</a>
                     <a href='/product' onClick={()=>setMenu(false)} className=' text-sm font-OpenSans-Medium my-2 ' >Products</a>
