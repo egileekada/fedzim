@@ -31,25 +31,25 @@ export default function FourthSection() {
             <p className=' font-PublicSans-SemiBold text-4xl my-2 mt-8' >Meet our Team</p>
             <p className=' font-PublicSans-Medium lg:w-80 text-center text-[#666666] text-xs my-4' >Listen to what our client have to say about us and how we are serving them better</p>
             <div className='w-full text-[#190042] overflow-x-hidden px-6 lg:px-20 py-16 grid grid-cols-1 lg:grid-cols-2 gap-y-12 gapx-x-4 ' >
-            <div className='w-full py-4' > 
+            <div className='w-full py-4 flex justify-center  flex-col ' > 
                     <p className=' font-OpenSans-SemiBold lg:w-80 text-xl leading-snug my-2' >Finding hospital managemt solution is not easy these days.</p>
                     <p className='font-PublicSans-Medium lg:w-80 leading-loose text-sm mt-5'>The world will be a better place if we keep records and pay close attention to our physical and environmental health. </p>
                     <div className=' w-full flex pl-8 items-center mt-14' >
                         {tab === 0 && (
                             <div className='w-56' >
-                                <p className='font-PublicSans-Medium text-sm'>Chimezirim Wilfred ekeke</p>
+                                <p className='font-PublicSans-SemiBold'>Chimezirim Wilfred ekeke</p>
                                 <p className='font-PublicSans-Medium text-[#00000080] text-xs mt-1'>CEO Fedzim</p>
                             </div>
                         )}
                         {tab === 1 && (
                             <div className='w-56'>
-                                <p className='font-PublicSans-Medium text-sm'>Obomhense Idemudia</p>
+                                <p className='font-PublicSans-SemiBold'>Obomhense Idemudia</p>
                                 <p className='font-PublicSans-Medium text-[#00000080] text-xs mt-1'>COO Fedzim</p>
                             </div>
                         )}
                         {tab === 2 && (
                             <div className='w-56'>
-                                <p className='font-PublicSans-Medium text-sm'>Abiodun Osagie Olise</p>
+                                <p className='font-PublicSans-SemiBold'>Abiodun Osagie Olise</p>
                                 <p className='font-PublicSans-Medium text-[#00000080] text-xs mt-1'>CTO Fedzim</p>
                             </div>
                         )}
@@ -81,7 +81,7 @@ export default function FourthSection() {
                     <p className=' font-PublicSans-SemiBold text-2xl lg:w-96 mt-3' >Leading digital transformation for all industry.</p>
                     <p className=' font-PublicSans-Medium text-xs mt-4 lg:w-96 text-[#575757] ' >At Fedzim, this is the creative team that comes up with new ideas. To your business, we offer the best.</p>
                 </div>
-                <div className=' w-full flex justify-center items-center flex-col ' >
+                {/* <div className=' w-full flex justify-center items-center flex-col ' >
                     <div className=' grid grid-cols-2 lg:grid-cols-3 gap-6' >
                         <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
                             <img className='w-20 opacity-50 ' src={Spotify} alt='spotify' />
@@ -112,7 +112,7 @@ export default function FourthSection() {
                             <p className=' font-OpenSans-SemiBold text-sm text-[#230B6D] ' >120+ company</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

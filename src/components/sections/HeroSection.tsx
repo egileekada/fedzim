@@ -11,7 +11,7 @@ import flutterwave from '../../assets/images/flutterwave.png'
 export default function HeroSection() {
     return (
         <div className='w-screen text-[#230B6D] overflow-x-hidden px-6 lg:px-20 py-16 grid grid-cols-1 lg:grid-cols-2 gap-y-12 gapx-x-4 ' >
-           <div className='w-full py-4' >
+           <div className='w-full py-4 flex flex-col items-center justify-center' >
                 <p className='font-PublicSans-Medium text-sm flex items-center' ><div style={{height: '1px'}} className=' w-20 bg-[#230B6D] ' />Your healthcare solutions partner</p>
                 <p className=' font-OpenSans-ExtraBold text-4xl lg:text-5xl leading-snug my-2' >Enabling Digital Revolution For your Businesses</p>
                 <p className='font-PublicSans-Medium text-sm mt-5'>We make medical care more accessible to you</p>
@@ -38,7 +38,7 @@ export default function HeroSection() {
                 <p className=' font-PublicSans-SemiBold text-2xl w-80 mt-3' >We make medical care more accessible to you</p>
                 <p className=' font-PublicSans-Medium text-xs mt-4 w-72 text-[#575757] ' >At Fedzim, this is the creative team that comes up with new ideas. To your business, we offer the best.</p>
             </div>
-            <div className=' w-full flex justify-center items-center flex-col ' >
+            {/* <div className=' w-full flex justify-center items-center flex-col ' >
                 <div className=' grid grid-cols-2 lg:grid-cols-3 gap-6' >
                     <div className=' w-full lg:w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
                         <img className='w-20 opacity-50 ' src={Spotify} alt='spotify' />
@@ -69,7 +69,7 @@ export default function HeroSection() {
                         <p className=' font-OpenSans-SemiBold text-sm text-[#230B6D] ' >120+ company</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 } 

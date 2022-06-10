@@ -43,8 +43,8 @@ export default function ThirdSection() {
                     </div>
                 </div>
             </div>
-            <div className=' w-full ' > 
-                <img src={HeroImage} className=' w-full' alt='hero' />
+            <div className=' w-full rounded-xl pl-4 ' > 
+                <img style={{ boxShadow: '0px 26px 40px 0px #0000001F' }} src={HeroImage} className=' w-full rounded-xl p-2' alt='hero' />
             </div>
         </div>
     )
