@@ -17,7 +17,7 @@ export default function Navbar() {
                 <a href='/aboutus' className=' text-sm mx-4 font-OpenSans-Medium ' >About us</a>
                 <a href='/product' className=' text-sm mx-4 font-OpenSans-Medium ' >Products</a>
                 <a href='/contactus' className=' text-sm mx-4 font-OpenSans-Medium ' >Contact</a>
-                <button className=' border mx-4 border-[#E834D5] font-OpenSans-SemiBold text-[#E834D5] text-sm h-10 w-24 rounded ' >LET’S TALK</button>
+                <a href="https://wa.me/+2348752914133" className=' border mx-4 border-[#E834D5] font-OpenSans-SemiBold text-[#E834D5] text-sm h-10 w-24 rounded my-2 flex justify-center items-center' >LET’S TALK</a>
             </div>
 
             <div className="w-full flex justify-end lg:hidden">
@@ -42,7 +42,7 @@ export default function Navbar() {
                     <a href='/aboutus' onClick={()=>setMenu(false)} className=' text-sm font-OpenSans-Medium my-2 ' >About us</a>
                     <a href='/product' onClick={()=>setMenu(false)} className=' text-sm font-OpenSans-Medium my-2 ' >Products</a>
                     <a href='/contactus' onClick={()=>setMenu(false)} className=' text-sm font-OpenSans-Medium my-2 ' >Contact</a>
-                    <button className=' border mx-4 border-[#E834D5] font-OpenSans-SemiBold text-[#E834D5] text-sm h-10 w-24 rounded my-2' >LET’S TALK</button>
+                <a href="https://wa.me/+2348752914133" className=' border mx-4 border-[#E834D5] font-OpenSans-SemiBold text-[#E834D5] text-sm h-10 w-24 rounded my-2 flex justify-center items-center' >LET’S TALK</a>
                     
                 </div>
             :null}
