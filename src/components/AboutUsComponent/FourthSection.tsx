@@ -76,44 +76,12 @@ export default function FourthSection() {
                         <img src={Partner} className=' w-full px-6 lg:w-3/5' alt='hero' />
                     )}
                 </div>
-                <div className='w-full' > 
-                    <p className='font-PublicSans-Medium text-sm flex items-center' ><div style={{height: '1px'}} className=' w-20 bg-[#230B6D] mr-3 ' />Our Clients</p>
-                    <p className=' font-PublicSans-SemiBold text-2xl lg:w-96 mt-3' >Leading digital transformation for all industry.</p>
-                    <p className=' font-PublicSans-Medium text-xs mt-4 lg:w-96 text-[#575757] ' >At Fedzim, this is the creative team that comes up with new ideas. To your business, we offer the best.</p>
-                </div>
-                {/* <div className=' w-full flex justify-center items-center flex-col ' >
-                    <div className=' grid grid-cols-2 lg:grid-cols-3 gap-6' >
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20 opacity-50 ' src={Spotify} alt='spotify' />
-                        </div>
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20 opacity-50 ' src={logitech} alt='logitech' />
-                        </div>
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20 ' src={google} alt='google' />
-                        </div>
-                    </div>
-                    <div className='mx-auto grid grid-cols-2 gap-6 mt-6' > 
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20' src={monnify} alt='monnify' />
-                        </div>
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20 ' src={investa} alt='investa' />
-                        </div>
-                    </div>
-                    <div className=' grid grid-cols-2 lg:grid-cols-3 gap-6 mt-6' >
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20' src={paystack} alt='spotify' />
-                        </div>
-                        <div className=' w-32 flex justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <img className='w-20 ' src={flutterwave} alt='logitech' />
-                        </div>
-                        <div className=' w-32 flex bg-[#1900421F] justify-center items-center py-3' style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.05)'}} >
-                            <p className=' font-OpenSans-SemiBold text-sm text-[#230B6D] ' >120+ company</p>
-                        </div>
-                    </div>
-                </div> */}
             </div>
+            <div className='w-full justify-center flex mb-8 flex-col items-center ' > 
+                <p className='font-PublicSans-Medium text-sm lg:w-96 flex items-center' ><div style={{height: '1px'}} className=' w-20 bg-[#230B6D] mr-3 ' />Our Clients</p>
+                <p className=' font-PublicSans-SemiBold text-2xl lg:w-96 mt-3' >Leading digital transformation for all industry.</p>
+                <p className=' font-PublicSans-Medium text-xs mt-4 lg:w-96 text-[#575757] ' >At Fedzim, this is the creative team that comes up with new ideas. To your business, we offer the best.</p>
+            </div> 
         </div>
     )
 } 

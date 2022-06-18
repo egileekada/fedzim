@@ -42,7 +42,7 @@ export default function ContactUs() {
                             <g mask="url(#mask0_5_1233)">
                             </g>
                         </svg>
-                        <p className=' font-OpenSans-Regular w-72 ml-3' >+234-875-291-41335-450-3059</p>
+                        <a href="https://wa.me/+2348752914133"><p className=' font-OpenSans-Regular w-72 ml-3' >+234-875-291-4133</p></a>
                     </div>
                     <div className=' flex items-center lg:ml-auto' >
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@ export default function ContactUs() {
                             <g mask="url(#mask0_5_1236)">
                             </g>
                         </svg>
-                        <p className=' font-OpenSans-Regular w-72 ml-3' >info@fedzim.com</p>
+                        <a href="mailto:info@fedzim.com"><p className=' font-OpenSans-Regular w-72 ml-3' >info@fedzim.com</p></a>
                     </div>
                 </div>
             </div> 
