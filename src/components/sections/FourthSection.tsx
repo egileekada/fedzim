@@ -1,7 +1,10 @@
 import React from 'react'
-import Video from '../../assets/images/Video.png'
+import ReactPlayer from 'react-player'
+// import Video from '../../assets/images/Video.png'   
+// import Intro from '../../assets/video/FedzimIntro.mp4'
 
-export default function FourthSection() {
+
+export default function FourthSection() { 
     return (
         <div className='w-full flex flex-col justify-center lg:px-40 px-6 items-center py-10 ' >
             <svg width="62" height="58" viewBox="0 0 62 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,8 +17,25 @@ export default function FourthSection() {
                     </linearGradient>
                 </defs>
             </svg>
-            <p style={{ textShadow: '0px 4px 4px 0px #00000040' }} className=' font-PublicSans-SemiBold text-3xl my-2' >Watch how we work</p>
-            <img src={Video} className='w-full mt-10'  alt='video' />
+            <p style={{ textShadow: '0px 4px 4px 0px #00000040' }} className=' mb-8 font-PublicSans-SemiBold text-3xl my-2' >Watch how we work</p> 
+            <div className='lg:flex hidden ' >
+                <ReactPlayer
+                    url='https://youtu.be/oJR9KKzV8Vk'  
+                    width='80vw' 
+                    height='40vw' 
+                    controls = {true} 
+
+                    // loop
+                    /> 
+            </div>
+            <div className='flex lg:hidden ' >
+                <ReactPlayer
+                    url='https://youtu.be/oJR9KKzV8Vk'  
+                    width='100%'
+                    controls = {true} 
+                    // loop
+                    /> 
+            </div>
         </div>
     )
 } 
