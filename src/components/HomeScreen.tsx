@@ -37,7 +37,7 @@ export default function HomeScreen() {
             <div className='w-full bg-white' >
                 <ThirdSection />
             </div>
-            <div className='w-full bg-white' >
+            <div id='video' className='w-full bg-white' >
                 <FourthSection />
             </div>
             <div style={{display: showScroll ? 'flex' : 'none'}} className='rounded-full'>

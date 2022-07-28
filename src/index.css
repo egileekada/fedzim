@@ -47,3 +47,6 @@
   src: url("../src/assets/fonts/PublicSans-Regular.ttf")
 }  
  
+html {
+  scroll-behavior: smooth;
+}
