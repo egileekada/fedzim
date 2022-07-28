@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../../assets/images/AboutImage.png'
+import HeroImage from '../../assets/images/AboutImage.jpg'
 
 export default function FirstSection() {
     return (
@@ -9,7 +9,7 @@ export default function FirstSection() {
             <p className=' font-PublicSans-Regular text-sm mt-6 lg:w-96 ' >Fedzim identifies problems in every industry and proposes solutions. Over time, health systems have managed health records manually via paper files, generating stress and, in some cases, file loss. As a result, Fedzim developed the Patient Memo, which aids in the digital management of medical records.</p>
         </div>
         <div className=' w-full relative ' > 
-            <div className=' absolute inset-0 bg-black opacity-60 rounded-lg' />
+            {/* <div className=' absolute inset-0 bg-black opacity-60 rounded-lg' /> */}
             <img src={HeroImage} className=' w-full rounded-lg' alt='hero' />
         </div>
     </div>

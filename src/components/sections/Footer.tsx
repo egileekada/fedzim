@@ -39,7 +39,7 @@ export default function Footer(props: any) {
                     <a href='https://twitter.com/Fed_zim'><img src={Twitter} alt='facebook' /></a>
                     <a href='https://www.instagram.com/fed_zim/'><img src={Instagram} alt='facebook' /></a>
                 </div>
-                <p className=' font-OpenSans-Regular text-white mt-10 mb-4 text-sm ' >©2022 - Fedzim.com. All right reserved</p>
+                <p className=' font-OpenSans-Regular text-white mt-10 mb-4 text-sm ' >©2022 - FEDZIM All right reserved</p>
                 <a href='https://www.icowebagency.com'><p className=' font-OpenSans-SemiBold text-white mb-10 text-sm ' >Developed by icoweb</p></a>
             </div>
             <img src={FooterImage} className=' w-full lg:flex hidden' alt='' />

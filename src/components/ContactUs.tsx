@@ -1,13 +1,13 @@
 import React from 'react'
-import HeroImage from '../assets/images/Map.png'
+import HeroImage from '../assets/images/Map.jpg'
 import Footer from './sections/Footer'
 
 export default function ContactUs() {
     return (
         <div className='w-auto overflow-hidden' > 
             <div className=' w-full relative px-6 lg:px-32 py-14 flex lg:flex-row flex-col items-center justify-center' > 
-                <img src={HeroImage} className=' w-full' alt='hero' />
-                <div className=' lg:absolute lg:mt-0 mt-8 lg:p-10 left-48 -bottom-48 z-20 rounded-lg bg-white ' >
+                <img style={{ height: '750px' }} src={HeroImage} className=' w-full rounded-2xl object-cover object-top' alt='hero' />
+                <div className=' lg:border border-black  lg:absolute lg:mt-0 mt-8 lg:p-10 left-48 -bottom-48 z-20 rounded-lg bg-white ' >
                     <p className=' font-PublicSans-SemiBold text-4xl text-[#333] ' >Let’s Talk</p>
                     <p className=' font-PublicSans-Regular lg:w-80 text-sm text-[#666] mt-2 ' >Our friendly custom service team always respond to enquiries within 24 hours.</p>
                     <div className=' w-full lg:w-auto flex lg:flex-row flex-col mt-8' >
